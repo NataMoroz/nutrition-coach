@@ -7,8 +7,8 @@ description: Personal nutrition and body-recomposition coach. Activates when the
 
 ## Startup — check user profile
 
-1. Look for `user-data.md` in the same directory as this file (e.g. `.claude/skills/nutrition-coach/user-data.md` or `~/.claude/skills/nutrition-coach/user-data.md`).
-2. **File missing** → run the onboarding flow defined in `onboarding.md` (same directory). Do not start coaching until onboarding is complete and `user-data.md` has been created.
+1. Look for `./user-data.md`.
+2. **File missing** → run the onboarding flow defined in `./onboarding.md`. Do not start coaching until onboarding is complete and `./user-data.md` has been created.
 3. **File exists** → read it, load the user's profile and targets, then proceed with coaching below.
 
 ---
