@@ -36,39 +36,6 @@ It's not a generic macro calculator. It's a coach that learns you.
 
 ---
 
-## Install
-
-### Option A — Project skill (one project only)
-
-```bash
-mkdir -p .claude/skills/nutrition-coach
-curl -o .claude/skills/nutrition-coach/SKILL.md \
-  https://raw.githubusercontent.com/NataMoroz/nutrition-coach-skill/main/skills/nutrition-coach/SKILL.md
-curl -o .claude/skills/nutrition-coach/onboarding.md \
-  https://raw.githubusercontent.com/NataMoroz/nutrition-coach-skill/main/skills/nutrition-coach/onboarding.md
-```
-
-### Option B — User skill (available in all your projects)
-
-```bash
-mkdir -p ~/.claude/skills/nutrition-coach
-curl -o ~/.claude/skills/nutrition-coach/SKILL.md \
-  https://raw.githubusercontent.com/NataMoroz/nutrition-coach-skill/main/skills/nutrition-coach/SKILL.md
-curl -o ~/.claude/skills/nutrition-coach/onboarding.md \
-  https://raw.githubusercontent.com/NataMoroz/nutrition-coach-skill/main/skills/nutrition-coach/onboarding.md
-```
-
-### Option C — Clone manually
-
-```bash
-git clone https://github.com/NataMoroz/nutrition-coach-skill.git
-cp -r nutrition-coach-skill/skills/nutrition-coach ~/.claude/skills/
-```
-
-> **Verify it loaded:** run `/skills` inside Claude Code — `nutrition-coach` should appear.
-
----
-
 ## First run
 
 Open Claude Code and say anything food-related — or just say hi. The skill will detect it's your first time, run onboarding (~2 min), and create your personal `user-data.md` locally. After that, just log what you eat.
