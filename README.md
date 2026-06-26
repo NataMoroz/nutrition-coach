@@ -15,7 +15,7 @@ Everyone told me breastfeeding would melt the weight off. It didn't. I was const
 
 A friend suggested something I'd never done before: count calories and create a small deficit. So I did what I always do — I went deep. I read through the research, looked at what actually applies to postpartum women (not just the generic fitness advice extrapolated from male studies), factored in breastfeeding, training load, and hormonal context. Then I built a set of instructions for Claude that reflected my specific situation.
 
-It worked. Slowly, sustainably, without starving or sacrificing milk supply.
+It worked. Two months in, I'd lost 6 kg — slowly, sustainably, without starving or sacrificing milk supply. Energy came back. I started taking strength training seriously alongside the cardio, and for the first time postpartum I felt like myself again — not just surviving, actually building.
 
 Friends started noticing. They asked what I was doing. I shared the Claude project, then decided to clean it up and make it available to anyone who needs it.
 
