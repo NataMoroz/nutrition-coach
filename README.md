@@ -36,18 +36,18 @@ It's not a generic macro calculator. It's a coach that learns you.
 
 Pick whichever fits your setup:
 
-**Option 1 — Claude Code plugin**
+**Option 1: Claude Code plugin**
 
 ```
 /plugin marketplace add NataMoroz/nutrition-coach
 /plugin install nutrition-coach@nutrition-coach
 ```
 
-**Option 2 — Claude (Desktop Chat / web)**
+**Option 2: Claude (Desktop Chat / web)**
 
 Customize → Plugins → Personal plugins → **+** → Add from a repository → enter `NataMoroz/nutrition-coach` → **Install**.
 
-**Option 3 — CLI Install**
+**Option 3: CLI Install**
 
 Install into any agent. You will be able to choose your agent during setup.
 
@@ -57,7 +57,7 @@ npx skills add NataMoroz/nutrition-coach
 
 ## Usage
 
-Once installed, just ask your agent to log a meal or check your day — the skill activates whenever you mention food. A couple of examples:
+Once installed, just ask your agent to log a meal or check your day. The skill activates whenever you mention food. A couple of examples:
 
 ```
 I had oatmeal with banana and a coffee for breakfast
