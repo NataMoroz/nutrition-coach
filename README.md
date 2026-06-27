@@ -45,7 +45,7 @@ Pick whichever fits your setup:
 
 **Option 2: Claude (Desktop Chat / web)**
 
-Customize → Plugins → Personal plugins → **+** → Add from a repository → enter `NataMoroz/nutrition-coach` → **Install**.
+Customize → Personal plugins → **+** → Create plugin → Add Marketplace → Add from a repository → enter `NataMoroz/nutrition-coach` → **Sync** → Nutrition Coach → Install
 
 **Option 3: CLI Install**
 
