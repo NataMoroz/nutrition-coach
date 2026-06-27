@@ -1,4 +1,4 @@
-# nutrition-coach — AI nutrition & macro tracking skill for Claude
+# Nutrition Coach — AI nutrition & macro tracking skill for Claude
 
 A personalized AI nutrition coach built as a Claude skill. Works for both men and women — with proper sex-based coaching built in, not bolted on. Logs food, tracks macros, learns your patterns, and remembers your data across conversations.
 
