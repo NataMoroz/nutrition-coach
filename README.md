@@ -4,8 +4,6 @@ A personalized AI nutrition coach built as a Claude skill. Works for both men an
 
 > Built after my own postpartum recomposition journey — a nutrition coach that actually understands training, breastfeeding, and real life.
 
----
-
 ## The story behind this
 
 I've been athletic most of my life. Before getting pregnant I completed an Olympic-distance triathlon, ate clean, trained consistently. No meat for years. Never counted calories — just ate intuitively and it worked.
@@ -19,8 +17,6 @@ A friend suggested something I'd never done before: count calories and create a 
 It worked. Two months in, I'd lost 6 kg — slowly, sustainably, without starving or sacrificing milk supply. Energy came back. I started taking strength training seriously alongside the cardio, and for the first time postpartum I felt like myself again — not just surviving, actually building.
 
 Friends started noticing. They asked what I was doing. I shared the Claude project, then decided to clean it up and make it available to anyone who needs it.
-
----
 
 ## What this is
 
@@ -36,27 +32,63 @@ A Claude skill for personalized nutrition coaching. It:
 
 It's not a generic macro calculator. It's a coach that learns you.
 
----
+## Installation
 
-## First run
+Pick whichever fits your setup:
 
-Open Claude Code and say anything food-related — or just say hi. The skill will detect it's your first time, run onboarding (~2 min), and create your personal `user-data.md` locally. After that, just log what you eat.
+**Option 1 — Claude Code plugin**
 
----
+```
+/plugin marketplace add NataMoroz/nutrition-coach
+/plugin install nutrition-coach@nutrition-coach
+```
+
+**Option 2 — Claude (Desktop Chat / web)**
+
+Customize → Plugins → Personal plugins → **+** → Add from a repository → enter `NataMoroz/nutrition-coach` → **Install**.
+
+**Option 3 — CLI Install**
+
+Install into any agent. You will be able to choose your agent during setup.
+
+```
+npx skills add NataMoroz/nutrition-coach
+```
+
+## Usage
+
+Once installed, just ask your agent to log a meal or check your day — the skill activates whenever you mention food. A couple of examples:
+
+```
+I had oatmeal with banana and a coffee for breakfast
+```
+
+```
+how am I doing on protein today?
+```
+
+You can also drop in a photo of your meal, correct portions on the fly ("actually that was 150g of rice"), or ask deeper questions ("what should I eat before training?").
+
+You can also invoke the skill directly:
+
+```
+/nutrition-coach
+```
 
 ## Files
 
 ```
+.claude-plugin/
+├── marketplace.json       — lists this marketplace's plugins
+└── plugin.json            — plugin manifest (plugin root = repo root)
 skills/nutrition-coach/
-├── SKILL.md        — the coach: routing logic, coaching instructions, memory rules
-└── onboarding.md   — first-run flow: collects your profile and creates user-data.md
+├── SKILL.md               — the coach: routing logic, coaching instructions, memory rules
+└── onboarding.md          — first-run flow: collects your profile and creates user-data.md
 
-Created on your machine (not in this repo):
-├── user-data.md    — your profile, targets, and learnings
-└── meals.jsonl     — your food diary, structured for analysis (trends, averages, patterns)
+Created on your machine in ~/.nutrition-coach/ (one global folder, not in this repo):
+├── user-data.md           — your profile, targets, and learnings
+└── meals.jsonl            — your food diary, structured for analysis (trends, averages, patterns)
 ```
-
----
 
 ## License
 
