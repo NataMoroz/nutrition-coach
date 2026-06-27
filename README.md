@@ -23,12 +23,11 @@ Friends started noticing. They asked what I was doing. I shared the Claude proje
 A Claude skill for personalized nutrition coaching. It:
 
 - Runs onboarding to build your profile (goals, training, health context, macro targets)
-- Logs every meal to `meals.jsonl` — a running food diary with daily totals
 - Remembers your patterns and preferences across conversations via `user.md`
+- Logs every meal to `meals.jsonl` — a running food diary with daily totals
 - Flags safety issues: protein gaps, too-aggressive deficits, calorie floor
 - Understands sex-based differences — men and women respond differently to training, nutrition, and deficits, and this coach accounts for that
 - Goes deep on female physiology — not just "shrink it and pink it": cycle phases, postpartum, breastfeeding
-- Works in any language
 
 It's not a generic macro calculator. It's a coach that learns you.
 
