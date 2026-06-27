@@ -52,7 +52,7 @@ skills/nutrition-coach/
 
 Created on your machine (not in this repo):
 ├── user-data.md    — your profile, targets, and learnings
-└── meals.json      — your food diary
+└── meals.json      — your food diary, structured for analysis (trends, averages, patterns)
 ```
 
 ---
