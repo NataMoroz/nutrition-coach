@@ -36,7 +36,7 @@ It's not a generic macro calculator. It's a coach that learns you.
 
 Pick whichever fits your setup:
 
-**Option 1: Claude Code**
+### Option 1: Claude Code
 
 1. Open Claude Code in the terminal
 2. Add marketplace:
@@ -53,13 +53,13 @@ Pick whichever fits your setup:
 
 4. Select `Install for you (user scope)`
 
-**Option 2: Claude Chat / Claude Cowork**
+### Option 2: Claude Chat / Claude Cowork
 
 Customize → Personal plugins → **+** → Create plugin → Add Marketplace → Add from a repository → enter `NataMoroz/nutrition-coach` → **Sync** → Nutrition Coach → Install
 
 > **Note:** Claude Chat on mobile doesn't support skills yet. To use the skill on mobile, set it up in Claude Code on desktop, then run it from a remote session in Claude Code mobile.
 
-**Option 3: Other coding agents**
+### Option 3: Other coding agents
 
 Run the following command in the terminal to install into any other coding agent. You will be able to choose your agent during setup.
 
