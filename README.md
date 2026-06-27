@@ -69,17 +69,15 @@ npx skills add NataMoroz/nutrition-coach
 
 ## Usage
 
-Once installed, just ask your agent to log a meal or check your day. The skill activates whenever you mention food. A couple of examples:
+Once installed, just ask your agent to log a meal or check your day. The skill activates whenever you mention food.
 
 ```
 I had oatmeal with banana and a coffee for breakfast
 ```
 
 ```
-how am I doing on protein today?
+How am I doing on protein today?
 ```
-
-You can also drop in a photo of your meal, correct portions on the fly ("actually that was 150g of rice"), or ask deeper questions ("what should I eat before training?").
 
 You can also invoke the skill directly:
 
